@@ -1,0 +1,120 @@
+@font-face{
+	font-family:"fake receipt";
+	src:url("fake receipt.ttf");
+}
+
+
+#container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	align-self: center;
+}
+
+#magicball{
+	position: fixed;
+	margin-top: 10vh;
+	text-align: center;
+	
+}
+
+#eight-ball-img {
+	margin-top: 13vh;
+	height: auto;
+	width: 45vw;
+}
+
+#display{
+	position: fixed;
+/*	border: 1px solid white;*/
+  	border-radius: 50%;
+  	width: 20vw;
+  	height: 20vw;
+  	margin-top: 34vh;
+  	left: 50vw;
+  	transform: translate(-50%);
+  	overflow: none;
+}
+
+#final{
+	font-family:"fake receipt";
+	font-weight: 400;
+    font-style: normal; 
+    position: fixed;
+    margin-top: 20vh;
+
+}
+
+.header{
+	float: left;
+	display: inline-block;
+
+}
+
+#heads{
+	position: fixed;
+	left: 27vw;
+}
+
+#tails{
+	position: fixed;
+	right: 26.5vw;
+}
+
+
+.header h1{
+	color: #ebe244;
+    font-family: "fake receipt";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 30pt;
+    padding: 0px;
+    margin: 5px;
+    position: fixed;
+    left: 50vw;
+    transform: translate(-50%);
+    -webkit-text-stroke:1px black;
+    margin-top:3vh;
+    width: 35vw;
+    text-align: center;
+}
+
+.flash{
+	display:none;
+	max-width: 15vw;
+	max-height: 15vh;
+	object-fit: cover;
+	position: fixed;
+	left: 10vw;
+	top: 10vw;
+	transform: translate(-50%, -50%);
+}
+
+h2{
+	color: black;
+    font-family: "fake receipt";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 10pt;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    position: fixed;
+    margin-top: 10vh;
+    width: 43em;
+  
+}
+
+p{
+	color: black;
+    font-family: "fake receipt";
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 10pt;
+    padding-bottom: 20px;
+    padding-top: 0px;
+    margin: 0px 590px;
+    position: fixed;
+    margin-top: 14vh;
+    width: 43em;
+}
